@@ -135,7 +135,7 @@ with tf.device('/device:GPU:0'):
 
     else:
 
-        dqn.load_weights('checkpoint_reward_170.93000887107826.h5f')
+        dqn.load_weights('checkpoint_reward_176.85544888417553.h5f')
 
         dqn.test(env, nb_episodes=100, visualize=False)
 
